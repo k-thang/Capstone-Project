@@ -3,13 +3,13 @@
 The goal was to analyze home loan application data using visualizations and statistical modeling to derive insights on loan status based on borrower attributes. The outcomes are beneficial for individuals seeking to enhance their chances of securing a loan.
 
 ## Process
-1. Leveraged Python to perform Exploratory Data Analysis on the data. Review the data cleaning and exploration process on EDA.ipynb
-2. Modeled the cleaned data using Logistic Regression and Random Forest Classifier to investigate the relationship between `Loan_Status` and the borrowers’ attributes. Evaluate the model results in models.ipynb
-3. Explored further into the variables identified by Logistic Regression and Random Forest Classifier (RFC) models as significant for determining loan status. Discover the steps involved in the variable reevaluation post_model_EDA.ipynb
+1. Leveraged Python to perform Exploratory Data Analysis on the [home loan data](data/loan_data.csv). Review the data cleaning and exploration process on [EDA.ipynb](notebooks/EDA.ipynb)
+2. Modeled the [cleaned data](data/loan_data_cleaned_numeric.xlsx) using Logistic Regression and Random Forest Classifier to investigate the relationship between `Loan_Status` and the borrowers’ attributes. Evaluate the model results in [models.ipynb](notebooks/models.ipynb)
+3. Explored further into the variables identified by Logistic Regression and Random Forest Classifier models as significant for determining loan status. Discover the steps involved in the variable reevaluation [post_model_EDA.ipynb](notebooks/post-model-EDA.ipynb)
 
 ## Model Results
 * The Logistic Regression model identified credit history and marital status as the only statistically significant features.
-* The Random Forest Classifier (RFC) model identified credit history, applicant income, co-applicant income and loan amount as the top features that are the most influential to predicting loan status.
+* The Random Forest Classifier model identified credit history, applicant income, co-applicant income and loan amount as the top features that are the most influential to predicting loan status.
 * Top 5 Features influencing Loan Status: Credit History, Applicant Income, Co-Applicant Income, Loan Amount and Marital Status.
 
 ## Recommendations
@@ -23,7 +23,7 @@ The goal was to analyze home loan application data using visualizations and stat
 * Analyzing the feature importance in the presence of conflicting models' results.
 
 ## Future Goals
-* Create and train a machine learning model that predicts the loan status based on the borrower’s application.
+* Create and train a machine learning model that predicts the loan status based on a borrower’s application.
 * Find additional data sources to enhance the level of detail in the dataset (e.g. credit score, debt-to-income ratio, employment history, etc.)
 
 
