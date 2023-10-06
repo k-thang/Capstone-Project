@@ -1,4 +1,4 @@
-# Approved or Denied? _An analysis on loan application data_
+# Approved or Denied? <br> <sub> _An in-depth analysis on home loan application data_ </sub>
 ## Project Goal
 The goal was to analyze home loan application data using visualizations and statistical modeling to derive insights on loan status based on borrower attributes. The outcomes are beneficial for individuals seeking to enhance their chances of securing a loan.
 
